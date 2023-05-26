@@ -8,6 +8,7 @@ namespace InterfacesExample
 {
     public interface IAnimal
     {
+        public string Name { get; set; }
         public int NumberOfLegs { get; set; }
         public int Age { get; set; }
 

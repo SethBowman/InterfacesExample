@@ -10,6 +10,7 @@ namespace InterfacesExample
     {
         public int NumberOfLegs { get; set; }
         public int Age { get; set; }
+        public string Name { get; set; }
 
         public void MakeNoise()
         {
